@@ -1,0 +1,39 @@
+body
+{
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0%;
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container
+{
+    background-color: lightcoral;
+    display: block;
+    height: 300px;
+    width: 230px;
+    padding: 30px;
+}
+h5
+{
+    font-size: 20px;
+ margin-top: 2px;
+ top: 3px;
+
+}
+.foot
+{
+    padding-top: 5px;
+    
+}
+.form-group
+{
+    padding-top: 10px;
+}

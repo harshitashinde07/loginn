@@ -8,14 +8,20 @@ function validate()
     var username=document.getElementById("user").value;
     var password=document.getElementById("pass").value;
 
-    if(username.trim()==" ")
+    if(username.trim(" ") || password.trim(" ") )
     {
-        alert("invali");
-        return false;
+        document.getElementById("lbb").style.visibility="visible";
     }
+
+   
     else
     {
-        return true;
 
+        document.getElementById("lbb").style.visibility="visible";
+        document.getElementById("lbb").innerHTML="valid";
+      
+      
+    
     }
+    
 }

@@ -19,9 +19,6 @@ function validate()
 
         document.getElementById("lbb").style.visibility="visible";
         document.getElementById("lbb").innerHTML="valid";
-      
-      
-    
     }
     
 }

@@ -1,5 +1,15 @@
 
+function setNewImage()
+{
+    document.getElementById("head").innerHTML="Create Account";
 
+
+}
+function setOldImage()
+
+{
+    document.getElementById("head").innerHTML="Signup";
+}
 
 
 
